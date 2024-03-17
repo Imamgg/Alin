@@ -351,9 +351,7 @@ document.write(`
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</label>
+
 </div></div>
       
     </div>
@@ -369,21 +367,6 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#"><strong>TUGAS 2</strong></a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#operasi-penjumlahan-matrix">Operasi Penjumlahan Matrix</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#operasi-perkalian-matrix">Operasi Perkalian Matrix</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#operasi-pengurangan-matrix">Operasi Pengurangan Matrix</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#operasi-persamaan-matrix">Operasi Persamaan Matrix</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#tranpose-matrix">Tranpose Matrix</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#program-untuk-mengkalikan-matrix-a-dengan-matrix-b-secara-manual-tidak-menggunakan">Program untuk mengkalikan Matrix A dengan Matrix B Secara Manual tidak menggunakan ‘@’</a></li>
-</ul>
-
-            </nav>
         </div>
     </div>
 </div>
@@ -393,8 +376,8 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="tugas-2">
-<h1><strong>TUGAS 2</strong><a class="headerlink" href="#tugas-2" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="tugas-2">
+<h1>TUGAS 2<a class="headerlink" href="#tugas-2" title="Link to this heading">#</a></h1>
 <p>Berikan pengertian apa itu Aljabar matrix</p>
 <p>Buatlah Matrix A(3x3),B(2x3),C(3x2)</p>
 <p>Operasi Matrix</p>
@@ -457,9 +440,7 @@ Matrix D 3x3:
 </div>
 </div>
 </div>
-</section>
-<section id="operasi-penjumlahan-matrix">
-<h1>Operasi Penjumlahan Matrix<a class="headerlink" href="#operasi-penjumlahan-matrix" title="Link to this heading">#</a></h1>
+<p>Operasi Penjumlahan Matrix</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Matrix A+B</span>
@@ -477,9 +458,7 @@ Matrix D 3x3:
 </div>
 </div>
 </div>
-</section>
-<section id="operasi-perkalian-matrix">
-<h1>Operasi Perkalian Matrix<a class="headerlink" href="#operasi-perkalian-matrix" title="Link to this heading">#</a></h1>
+<p>Operasi Perkalian Matrix</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Matrix A x C</span>
@@ -499,9 +478,7 @@ Ukuran Matrix = (3, 2)
 </div>
 </div>
 </div>
-</section>
-<section id="operasi-pengurangan-matrix">
-<h1>Operasi Pengurangan Matrix<a class="headerlink" href="#operasi-pengurangan-matrix" title="Link to this heading">#</a></h1>
+<p>Operasi Pengurangan Matrix</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Matrix A - B</span>
@@ -519,10 +496,8 @@ Ukuran Matrix = (3, 2)
 </div>
 </div>
 </div>
-</section>
-<section id="operasi-persamaan-matrix">
-<h1>Operasi Persamaan Matrix<a class="headerlink" href="#operasi-persamaan-matrix" title="Link to this heading">#</a></h1>
-<p>Matrix A(BxC) = Matrix (AxB)C</p>
+<p>Operasi Persamaan Matrix
+Matrix A(BxC) = Matrix (AxB)C</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">Matrix1</span> <span class="o">=</span> <span class="n">A</span><span class="o">@</span><span class="p">(</span><span class="n">B</span><span class="nd">@C</span><span class="p">)</span>
@@ -570,10 +545,8 @@ Ukuran Matrix = (3, 2)
 </div>
 </div>
 </div>
-</section>
-<section id="tranpose-matrix">
-<h1>Tranpose Matrix<a class="headerlink" href="#tranpose-matrix" title="Link to this heading">#</a></h1>
-<p>Anggap Baris = m, Kolom = n</p>
+<p>Tranpose Matrix
+Anggap Baris = m, Kolom = n</p>
 <p>=&gt; C = A_trans &#64; A</p>
 <p>=&gt; (n x m) &#64; (m x n) = n * n</p>
 <p>contoh: [2 x 3] &#64; [3 x 2] = [2 x 2]</p>
@@ -677,9 +650,7 @@ ordo Matrix P adalah (2, 2)
 </div>
 </div>
 </div>
-</section>
-<section id="program-untuk-mengkalikan-matrix-a-dengan-matrix-b-secara-manual-tidak-menggunakan">
-<h1>Program untuk mengkalikan Matrix A dengan Matrix B Secara Manual tidak menggunakan ‘&#64;’<a class="headerlink" href="#program-untuk-mengkalikan-matrix-a-dengan-matrix-b-secara-manual-tidak-menggunakan" title="Link to this heading">#</a></h1>
+<p>Program untuk mengkalikan Matrix A dengan Matrix B Secara Manual tidak menggunakan ‘&#64;’</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">Matrix_1</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">7</span><span class="p">],</span>
@@ -775,27 +746,7 @@ Pembuktian untuk Matrix A @ B =
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#"><strong>TUGAS 2</strong></a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#operasi-penjumlahan-matrix">Operasi Penjumlahan Matrix</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#operasi-perkalian-matrix">Operasi Perkalian Matrix</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#operasi-pengurangan-matrix">Operasi Pengurangan Matrix</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#operasi-persamaan-matrix">Operasi Persamaan Matrix</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#tranpose-matrix">Tranpose Matrix</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#program-untuk-mengkalikan-matrix-a-dengan-matrix-b-secara-manual-tidak-menggunakan">Program untuk mengkalikan Matrix A dengan Matrix B Secara Manual tidak menggunakan ‘@’</a></li>
-</ul>
-
-  </nav></div>
-
-</div></div>
+                <div class="bd-sidebar-secondary bd-toc"></div>
               
             
           </div>
